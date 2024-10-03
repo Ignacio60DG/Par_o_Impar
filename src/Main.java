@@ -4,7 +4,7 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Dime un numero!");
+        System.out.println("Dime un numero!");
 
         Scanner sc = new Scanner(System.in);
 
