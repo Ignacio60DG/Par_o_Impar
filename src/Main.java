@@ -9,8 +9,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int inumero = sc.nextInt();
-
-        int i;
+        
         System.out.println(inumero % 2 == 0 ? "Es par":"Es inpar");
     }
 }
