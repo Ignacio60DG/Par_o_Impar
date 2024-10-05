@@ -10,10 +10,7 @@ public class Main {
 
         int inumero = sc.nextInt();
 
-        System.out.printf("Vamos a ver si "+ inumero + "es par o impar");
-
-        int i;
-        System.out.println(inumero % 2 == 0 ? "Es par":"Es inpar");
+        System.out.println(inumero % 2 == 0 ? "Es par":"Es impar");
     }
 }
 
