@@ -10,6 +10,8 @@ public class Main {
 
         int inumero = sc.nextInt();
 
+        sc.close();
+
         System.out.println(inumero % 2 == 0 ? "Es par":"Es impar");
     }
 }
